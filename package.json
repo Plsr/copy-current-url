@@ -37,6 +37,7 @@
     "commands": {
       "copy-url": {
         "suggested_key": {
+          "default": "Ctrl+Shift+C",
           "mac": "MacCtrl+Command+C"
         },
         "description": "Copy the current url to your clipboard"
