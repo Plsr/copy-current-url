@@ -22,6 +22,8 @@ chrome.commands.onCommand.addListener(async (command) => {
     args: [currentUrl]
   })
   chrome.tabs.sendMessage(tab.id, { command: SHOW_SUCCESS_POPUP_COMMAND })
+
+  return true
 })
 
 async function logWindow(currentUrl: string) {
